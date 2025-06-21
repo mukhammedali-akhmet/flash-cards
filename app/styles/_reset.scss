@@ -1,0 +1,74 @@
+/* styles/reset.scss */
+
+/* Box sizing reset */
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+/* Remove default margin/padding */
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+figure,
+blockquote,
+dl,
+dd {
+    margin: 0;
+    padding: 0;
+}
+
+/* Remove list styles */
+ul[role='list'],
+ol[role='list'],
+ul,
+ol {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+/* Remove default link styles */
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* Set core body defaults */
+body {
+    min-height: 100vh;
+    line-height: 1.5;
+    font-family: sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    background-color: var(--color-bg, #fff);
+    color: var(--color-text, #000);
+}
+
+/* Remove default button/input styles */
+button,
+input,
+select,
+textarea {
+    font: inherit;
+    background: none;
+    border: none;
+    outline: none;
+}
+
+/* Images should not exceed parent */
+img,
+picture {
+    max-width: 100%;
+    display: block;
+}
+
+button {
+    cursor: pointer;
+}

@@ -1,0 +1,13 @@
+@import "./reset";
+@import "./variables";
+
+body {
+    background-color: $bg;
+    color: $text;
+    font-family: "Jost", sans-serif;
+}
+
+[class*="__container"] {
+    max-width: 97%;
+    margin-inline: auto;
+}
